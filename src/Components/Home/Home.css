@@ -1,0 +1,82 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.home-heading1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.home-heading2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: -4rem;
+    color: #303F9F;
+}
+
+.home-heading3 {
+    margin-top: -2rem;
+}
+
+.home-heading4 {
+    margin-top: -1rem;
+}
+
+.home-button {
+    margin-top: 2rem;
+    border-radius: 20px;
+    border: none;
+    width: 11rem;
+    padding: 1rem;
+    background: #303F9F;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.home-button:hover {
+    background: crimson;
+    transition: 0.5s ease-in-out;
+}
+
+.home-button-badge {
+    border: 1px solid black;
+    width: 5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 7px;
+    background: rgb(8, 230, 126);
+    position: relative;
+    top: -59px;
+    left: 71px;
+    color: white;
+}
+
+.home-info {
+    color: #303F9F;
+    margin-top: -1rem;
+}
+
+@media screen and (max-width:768px) {
+    .home-heading1 {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    .home-heading2 {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    .home-heading3 {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+    .home-heading4 {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+}

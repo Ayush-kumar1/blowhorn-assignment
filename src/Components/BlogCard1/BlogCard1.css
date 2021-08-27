@@ -1,0 +1,37 @@
+.blog-card1 {
+    border: 1px solid black;
+    width: 15rem;
+    height: 25rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.blog-card1-image {
+    height: 15rem;
+}
+
+.blog-card1-text {
+    color: white;
+    margin-left: 1rem;
+}
+
+.blog-card1-badge {
+    width: fit-content;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    padding-bottom: 1rem;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.blog-card1-badge-text {
+    font-size: 0.6rem;
+}

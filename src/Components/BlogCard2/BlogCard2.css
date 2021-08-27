@@ -1,0 +1,17 @@
+.blog-card2 {
+    border: 1px solid black;
+    width: 15rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+.blog-card2-image {
+    height: 15rem;
+}
+
+.blog-card2-text {
+    color: white;
+    margin-left: 1rem;
+}

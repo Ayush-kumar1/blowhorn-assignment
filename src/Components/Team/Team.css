@@ -1,0 +1,24 @@
+.team {
+    margin-top: 6rem;
+}
+
+.team-heading1 {
+    color: #303F9F;
+}
+
+.team-head-wrapper {
+    margin-left: 7rem;
+}
+
+.team-card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+@media screen and (max-width:768px) {
+    .team-head-wrapper {
+        margin-left: 2rem;
+    }
+}

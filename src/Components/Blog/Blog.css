@@ -1,0 +1,21 @@
+.blog {
+    margin-top: 8rem;
+    /* background-color: #EAEDED; */
+}
+
+.blog-heading {
+    margin-left: 6rem;
+}
+
+.blog-card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+    .blog-heading {
+        margin-left: 2rem;
+    }
+}

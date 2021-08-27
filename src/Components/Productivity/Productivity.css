@@ -1,0 +1,24 @@
+.productivity {
+    margin-top: 8rem;
+}
+
+.productive-img {
+    width: 20rem;
+}
+
+.productive-section1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+}
+
+.productive-section1-details {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.details {
+    margin-top: -1rem;
+}
