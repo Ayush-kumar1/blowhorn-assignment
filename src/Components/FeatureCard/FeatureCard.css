@@ -18,8 +18,4 @@
     height: 3rem;
     border-radius: 50%;
     background: #303F9F;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
